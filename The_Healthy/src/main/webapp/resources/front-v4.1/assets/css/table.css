@@ -1,0 +1,57 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.title {
+    text-align: center;
+    vertical-align: middle
+}
+
+.content {
+    text-align: left;
+    vertical-align: top
+}
+
+span {
+    color: black;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.li-blue {
+    background-color: rgb(112, 175, 233);
+}
+
+.outline {
+    background-color: #fff;
+    border: 2px solid rgb(134, 216, 63);
+}
